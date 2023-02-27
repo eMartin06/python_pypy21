@@ -1,0 +1,11 @@
+név=None
+nev_lista=[]
+while név !='':
+    név=input('Adj meg keresztneveket! Az enter gombbal tudsz tovább lépni. ')
+    nev_lista.append(név)
+    if len(nev_lista) ==3 :
+        print('Már nincs lehetőség újabb adat bevitelére.')
+        break
+
+# nev_lista.pop('')
+print(nev_lista)
